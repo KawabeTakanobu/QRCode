@@ -29,6 +29,7 @@ QRコードのサイズはdata-size属性で設定する。data-size属性が見
   
 ◆使用例
 【キャンバスに描き出す例】
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,8 +56,9 @@ QRコードのサイズはdata-size属性で設定する。data-size属性が見
 </script>
 </body>
 </html>
-
+```
 【特定の<A>タグのリンク先URLをQRコード化する例】
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,8 +76,9 @@ QRコードのサイズはdata-size属性で設定する。data-size属性が見
 </script>
 </body>
 </html>
-  
+```  
 【data-value属性の値をQRコード化する例】
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,3 +97,4 @@ QRコードのサイズはdata-size属性で設定する。data-size属性が見
 </script>
 </body>
 </html>
+```

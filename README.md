@@ -27,8 +27,8 @@ data-value属性が存在する場合にはその属性値そのものが、data
 QRコードのサイズはdata-size属性で設定する。data-size属性が見て意義の場合は、1マスが4×4ピクセルのQRコードが出力される。
 なお、引数なしのqc.ver()、qc.ecc()、qc.mask()以外の関数は自身のインスタンスを返すため、メソッドチェーンで繋げることが可能。
   
-◆使用例
-【キャンバスに描き出す例】
+## 使用例
+### キャンバスに描き出す例
 ```
 <!DOCTYPE html>
 <html>
@@ -57,7 +57,7 @@ QRコードのサイズはdata-size属性で設定する。data-size属性が見
 </body>
 </html>
 ```
-【特定の<A>タグのリンク先URLをQRコード化する例】
+### 特定のAタグのリンク先URLをQRコード化する例
 ```
 <!DOCTYPE html>
 <html>
@@ -77,7 +77,7 @@ QRコードのサイズはdata-size属性で設定する。data-size属性が見
 </body>
 </html>
 ```  
-【data-value属性の値をQRコード化する例】
+### data-value属性の値をQRコード化する例
 ```
 <!DOCTYPE html>
 <html>
